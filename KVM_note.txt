@@ -1,0 +1,4 @@
+For NIC passthrough:
+set halt_poll_ns to 0 to prevent high host-cpu load
+
+I also found that my GPU passthrough setup will freeze the host upon guest shutdown if IOMMU is translation instead of passthrough mode
